@@ -9,7 +9,7 @@ public class Start {
 
         System.out.println("--------------Starting-----------------");
 
-        List<Integer> fibonacciNumbers = new ArrayList<Integer>();
+        List<Integer> fibonacciNumbers = new ArrayList<>();
         fibonacciNumbers.addAll(Arrays.asList(0, 1, 1, 2, 3, 5, 8, 13, 21, 34));
         for (Integer fibonacciNumber: fibonacciNumbers) {
             System.out.println(fibonacciNumber);}
