@@ -11,8 +11,8 @@ public class Start {
 
         /**
          * Declaring two variables:
-         * firstNumber is the first number
-         * secondNumber is the second number
+         * @firstNumber is the first number
+         * @secondNumber is the second number
          */
 
         int firstNumber = 0;
