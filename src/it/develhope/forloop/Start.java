@@ -1,20 +1,20 @@
 package it.develhope.forloop;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 public class Start {
     public static void main(String[] args) {
 
         System.out.println("--------------Starting-----------------");
 
-        List<Integer> fibonacciNumbers = new ArrayList<>();
-        fibonacciNumbers.addAll(Arrays.asList(0, 1, 1, 2, 3, 5, 8, 13, 21, 34));
-        for (Integer fibonacciNumber: fibonacciNumbers) {
-            System.out.println(fibonacciNumber);}
+        int sum = 0;
+        int nextNum = 1;
+        int previousNumber = 0;
 
-        System.out.println("---------------------------------------");
-
+        for (int i = 1; i<=10; i++){
+            System.out.print(previousNumber + " ");
+            sum = previousNumber + nextNum;
+            previousNumber = nextNum;
+            nextNum = sum;
+        }
     }
 }
