@@ -31,9 +31,8 @@ public class Start {
             System.out.println(firstNumber);
             int nextNumber = firstNumber + secondNumber;
             firstNumber = secondNumber;
-            secondNumber = nextNumber;
+            secondNumber = nextNumber;}
 
-        }
         System.out.println("---------------------------------------------------------");
     }
 }
